@@ -1,0 +1,59 @@
+.expand-more-image {
+    width: 2rem;
+    height: 2rem;
+    transition: transform 0.3s ease; 
+}
+
+.expand-more-image.expanded {
+    transform: rotate(180deg);
+}
+
+.expand-education-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    height: auto;
+    padding: 0.4rem;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education-logo {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.expand-education-button > h2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education-inputs-container {
+    width: 100%;
+}
+
+.education-inputs-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.education-inputs-container > div > label {
+    display: block;
+    align-self: start;
+    margin-left: 16px;
+}
+
+.education-inputs-container > div > input {
+    margin-left: 16px;
+    width: 90%;
+}

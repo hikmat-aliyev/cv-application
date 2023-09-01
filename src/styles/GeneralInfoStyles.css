@@ -1,0 +1,26 @@
+.general-info-resume, .general-info-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.general-info-resume > div > p {
+    margin-left: 14px;
+}
+
+
+.general-info-input > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-info-input > div > label {
+    display: block;
+    align-self: start;
+    margin-left: 16px;
+}
+
+.general-info-input > div > input {
+    width: 90%;
+}
+
