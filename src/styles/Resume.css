@@ -1,0 +1,30 @@
+.education-resume-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-resume-container > h4 {
+    width: 90%;
+    background-color:  rgba(14,55,78,.07);
+}
+
+.education-resume-details {
+    margin: 0;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    justify-items: start;
+}
+
+.education-resume-details > p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.school-name-paragraph {
+    font-weight: bold;
+}

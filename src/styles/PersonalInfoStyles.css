@@ -1,10 +1,23 @@
 .general-info-resume, .general-info-input {
     display: flex;
     flex-direction: column;
+    border: 2px green solid;
+}
+
+.general-info-resume {
+    background-color: #0e374e;
+    color: azure;
+}
+
+.general-info-resume > h2 {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 40px;
 }
 
 .general-info-resume > div > p {
     margin-left: 14px;
+    font-size: 0.8rem;
 }
 
 

@@ -10,6 +10,7 @@
   height: 100vh;
 }
 
+
 .resume-container {
   border: 2px black solid;
   width: 50%;
@@ -18,4 +19,14 @@
 .input-container {
   border: blueviolet 3px solid;
   width: 30%;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+  .resume-container, .input-container{
+    width: 100%;
+  }
+
 }

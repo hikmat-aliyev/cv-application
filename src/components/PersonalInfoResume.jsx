@@ -1,7 +1,8 @@
-import './styles/GeneralInfoStyles.css'
+import '../styles/PersonalInfoStyles.css'
+import LocationSVG from '../assets/location.svg'
 
 // eslint-disable-next-line react/prop-types
-function GeneralInfoResume ({fullName = 'hey', mail, phoneNumber, address}) {
+function PersonalInfoResume ({fullName = 'hey', mail, phoneNumber, address}) {
     return (
         <div className="general-info-resume">
             <h2>{fullName}</h2>
@@ -14,4 +15,4 @@ function GeneralInfoResume ({fullName = 'hey', mail, phoneNumber, address}) {
     )
 }
 
-export default GeneralInfoResume;
+export default PersonalInfoResume;

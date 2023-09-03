@@ -57,3 +57,21 @@
     margin-left: 16px;
     width: 90%;
 }
+
+
+.education-name-delete {
+    border: 2px red solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trash-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+

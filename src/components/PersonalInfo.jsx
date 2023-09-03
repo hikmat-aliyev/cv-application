@@ -1,7 +1,7 @@
-import './styles/GeneralInfoStyles.css'
+import '../styles/PersonalInfoStyles.css'
 
 // eslint-disable-next-line react/prop-types
-function GeneralInfo({ fullName, setFullName, mail, setMail, phoneNumber, setPhoneNumber, address, setAddress }) {
+function PersonalInfo({ fullName, setFullName, mail, setMail, phoneNumber, setPhoneNumber, address, setAddress }) {
     
     return (
         <div className="general-info-input">
@@ -37,4 +37,4 @@ function GeneralInfo({ fullName, setFullName, mail, setMail, phoneNumber, setPho
     )
 }
 
-export default GeneralInfo
+export default PersonalInfo;
