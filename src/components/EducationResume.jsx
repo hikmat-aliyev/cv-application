@@ -2,7 +2,6 @@ import React from "react";
 import '../styles/Resume.css'
 // eslint-disable-next-line react/prop-types
 function EducationResume({educationArray}) {
-    console.log(educationArray)
     return(
         <div className="education-resume-container">
             <h4>Education</h4>

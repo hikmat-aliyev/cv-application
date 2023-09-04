@@ -1,4 +1,4 @@
-.education-resume-container {
+.education-resume-container, .experience-resume-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.education-resume-container > h4 {
+.education-resume-container > h4, .experience-resume-container > h4{
     width: 90%;
     background-color:  rgba(14,55,78,.07);
 }
@@ -15,16 +15,30 @@
     margin: 0;
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     row-gap: 10px;
     justify-items: start;
 }
 
-.education-resume-details > p {
+.experience-resume-details {
+    margin: 0;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 10px;
+    justify-items: start;
+}
+
+.education-resume-details > p, .experience-resume-details > p {
     margin: 0;
     font-size: 0.8rem;
 }
 
-.school-name-paragraph {
+.school-name-paragraph, .company-name-paragraph {
     font-weight: bold;
+}
+
+.description-paragraph {
+    grid-column-start: 2;
+    text-align: start;
 }

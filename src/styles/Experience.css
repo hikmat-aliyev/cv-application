@@ -1,0 +1,9 @@
+.expand-more-image-experience {
+    width: 2rem;
+    height: 2rem;
+    transition: transform 0.3s ease; 
+}
+
+.expand-more-image-experience.expanded {
+    transform: rotate(180deg);
+}
