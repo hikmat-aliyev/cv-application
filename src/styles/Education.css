@@ -13,9 +13,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
+    border: transparent;
+    border-radius: 12px;
     height: auto;
-    padding: 0.4rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+.add-education-button > h5 {
+    margin: 0;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0.5rem;
+    border: 2px rgba(14, 55, 78, 0.172) solid;
+}
+
+button {
+  border: transparent !important;
+  outline: 0cm;
+}
+
+.add-education-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
 }
 
 .education-container {
@@ -31,8 +52,8 @@
 }
 
 .expand-education-button > h2 {
-    width: 50%;
     display: flex;
+    gap: 20px;
     align-items: center;
     justify-content: space-between;
 }
@@ -40,6 +61,7 @@
 .education-inputs-container {
     width: 100%;
 }
+
 
 .education-inputs-container > div {
     display: flex;
@@ -51,27 +73,49 @@
     display: block;
     align-self: start;
     margin-left: 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 .education-inputs-container > div > input {
     margin-left: 16px;
     width: 90%;
+    border: 12px solid transparent;
+    border-radius: 12px;
 }
 
 
 .education-name-delete {
-    border: 2px red solid;
     width: 100%;
+    border-radius: 12px;
+    margin-top: 5px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.education-name-delete > button {
+    width: 80%;
+    text-align: left;
+}
+
 .trash-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.4rem;
+    height: 1.4rem;
     margin-right: 1rem;
     cursor: pointer;
 }
 
+.save-cancel-container {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.save-cancel-container > button {
+    border-radius: 12px;
+    background-color: #0e374e;
+    color: white;
+}
 

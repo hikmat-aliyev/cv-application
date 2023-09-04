@@ -85,7 +85,7 @@ function Education ({educationArray, setEducationArray, school, setSchool, degre
             <div className='education-container'>
 
                 <button className='expand-education-button' onClick={handleEducationButtonClick}>
-                    <h2> <img className='education-logo' src="https://rmathr.github.io/cv-project/462edf5f6d5ba03edebc.png" alt="" />
+                    <h2> <img className='education-logo' src="https://rmathr.github.io/cv-project/462edf5f6d5ba03edebc.png" alt="education-logo" />
                         Education</h2>
                     <img className='expand-more-image' src={ExpandMoreSVG} alt="expand-more" />
                 </button>
@@ -97,7 +97,7 @@ function Education ({educationArray, setEducationArray, school, setSchool, degre
                 </div>
                 )) : null}
 
-               {addEducation ? <button onClick={handleAddEducationClick}>+ Education </button> : null}
+               {addEducation ? <button className='add-education-button' onClick={handleAddEducationClick}><h5>+Education</h5> </button> : null}
 
                 {!addEducation && expanded ? <div className='education-inputs-container'>
                     <div>
@@ -132,7 +132,7 @@ function Education ({educationArray, setEducationArray, school, setSchool, degre
                     </div>
                 </div> : null}
 
-                <div>
+                <div className='save-cancel-container'>
                     {!addEducation && expanded ? <button onClick={handleSaveClick}>Save</button> : null}
                     {!addEducation && expanded ? <button onClick={handleCancelClick}>Cancel</button> : null}
                 </div>

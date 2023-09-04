@@ -2,23 +2,30 @@
   text-align: center;
 }
 
+.resume-container {
+  width: 50%;
+  background-color: white;
+}
+
 .container {
+  margin: 0;
   display: flex;
   justify-content: space-around;
-  border: 2px solid red;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
+  padding: 1rem;
+  background-color: rgba(14,55,78,.07);
 }
 
 
-.resume-container {
-  border: 2px black solid;
-  width: 50%;
-}
+
 
 .input-container {
-  border: blueviolet 3px solid;
-  width: 30%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 @media screen and (max-width: 500px) {

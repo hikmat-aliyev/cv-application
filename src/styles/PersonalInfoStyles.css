@@ -1,7 +1,12 @@
 .general-info-resume, .general-info-input {
     display: flex;
     flex-direction: column;
-    border: 2px green solid;
+}
+
+.general-info-input {
+    padding: 0 0.5rem 2rem 0.5rem;
+    background-color: white;
+    border-radius: 12px;
 }
 
 .general-info-resume {
@@ -31,9 +36,13 @@
     display: block;
     align-self: start;
     margin-left: 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 .general-info-input > div > input {
     width: 90%;
+    border: 12px solid transparent;
+    border-radius: 12px;
 }
 
